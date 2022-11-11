@@ -375,4 +375,4 @@ for i in prob_cols:
 sub = sub.drop_duplicates()
 #对数据进行保存csv  文档
 # float_format='%.3f' 保留小数后三位小数
-sub.to_csv("sub.csv",index=False,float_format='%.3f')
+sub.to_csv("sub.csv",index=False)
